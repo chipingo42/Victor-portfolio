@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 
 
+
 const Navbar = () => {
 
   const [colorTheme, setTheme] = useDarkmode();
@@ -26,6 +27,7 @@ const Navbar = () => {
           <ul className='flex justify-between space-x-[52px] mr-[30px] md:hidden'>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
               <a href="##">#Home</a>
+              {/* <Link to="/">#Home</Link> */}
             </li>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
               <a href="##">#About</a>
