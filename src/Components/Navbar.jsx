@@ -27,13 +27,14 @@ const Navbar = () => {
           </div>
           <ul className='flex justify-between space-x-[52px] mr-[30px] md:hidden'>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <Link>#Home</Link>
+              <Link to="/">#Home</Link>
             </li>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
               <a href="##">#About</a>
             </li>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <a href="##">#Projects</a>
+              
+              <Link to="/Projects">#Projects</Link>
             </li>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
               <a href="##">#Resume</a>
