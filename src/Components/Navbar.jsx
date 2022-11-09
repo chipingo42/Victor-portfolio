@@ -1,6 +1,7 @@
 import React,  { useDarkmode } from '../Hook/useDarkmode';
 import {IoAppsSharp} from 'react-icons/io5'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -26,8 +27,7 @@ const Navbar = () => {
           </div>
           <ul className='flex justify-between space-x-[52px] mr-[30px] md:hidden'>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <a href="##">#Home</a>
-              {/* <Link to="/">#Home</Link> */}
+              <Link>#Home</Link>
             </li>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
               <a href="##">#About</a>
