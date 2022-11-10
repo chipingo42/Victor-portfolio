@@ -22,7 +22,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Metamorphous: 'Metamorphous',
-        Inter: 'Inter'
+        Inter: 'Inter',
+        Poppins: 'Poppins',
       },
     },
   },
