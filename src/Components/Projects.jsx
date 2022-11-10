@@ -56,6 +56,9 @@ const Projects = () => {
                   <p className=' font-Poppins text-[20px] text-white '>Reactjs</p>
                 </span>
               </div>
+              <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white '>
+                <p>View</p>
+              </div>
               
             </div>
           </div>
@@ -82,6 +85,9 @@ const Projects = () => {
                 <span className='bg-[#EFA43499] py-2 px-2'>
                   <p className=' font-Poppins text-[20px] text-white '>Reactjs</p>
                 </span>
+              </div>
+              <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white '>
+                <p>View</p>
               </div>
             </div>
             <div className='bg-gray-100 dark:bg-gray-700 h-full w-[600px] mt-[187px] relative '>
@@ -122,6 +128,9 @@ const Projects = () => {
                 <span className='bg-[#EFA43499] py-2 px-2'>
                   <p className=' font-Poppins text-[20px] text-white '>Reactjs</p>
                 </span>
+              </div>
+              <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white '>
+                <p>View</p>
               </div>
             </div>
           </div>
