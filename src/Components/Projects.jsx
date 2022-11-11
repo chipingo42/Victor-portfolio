@@ -137,8 +137,6 @@ const Projects = () => {
         </div>
       </div>
       <Footer />
-      
-      
     </>
   )
 }
