@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 import covid19_image from '../Assets/covid19.png'
 import dog_image from '../Assets/dog.png'
 import wordLens_image from '../Assets/lens.png'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 const Projects = () => {
   return (
     <>
-      <Navbar /> 
+      {/* <Navbar />  */}
       <div className=' bg-white dark:bg-[#151D3B] h-full w-full'>
         <div className='flex justify-center'>
           <svg className='absolute left-0 top-[79px] h-[250px]' viewBox="0 0 96 390" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -136,9 +136,20 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
 
-export default Projects
+export default Projects;
+
+
+// import React from 'react'
+
+// const Projects = () => {
+//   return (
+//     <div className="pt-[140px]">Projects</div>
+//   )
+// }
+
+// export default Projects

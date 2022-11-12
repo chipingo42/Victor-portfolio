@@ -27,21 +27,11 @@ const Navbar = () => {
           </div>
           <ul className='flex justify-between space-x-[52px] mr-[30px] md:hidden'>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <Link to="/">#Home</Link>
+             <Link to="/">#Home</Link>
             </li>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <a href="##">#About</a>
-            </li>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <a href="##">#Projects</a>
-              {/* <Link to='/Projects'>#Projects</Link> */}
-            </li>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <a href="##">#Resume</a>
-            </li>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <a href="##">#Contact</a>
-            </li>
+            <CustomLink to="/About">#About</CustomLink>
+            <CustomLink to="/Projects">#Projects</CustomLink>
+            <CustomLink to="/Resum">#Resum</CustomLink>
           </ul>
           <div>
             <span onClick={() => setTheme(colorTheme)} className='flex'>
@@ -56,21 +46,12 @@ const Navbar = () => {
             </span>
           </div>
           <ul className={!navOpen ? 'hidden' : 'hidden absolute right-0 top-[77px] shadow-xl md:block md:w-[230px] md:h-[250px] md:bg-[#405089] pt-[15px] rounded-md justify-between space-y-[15px] mr-[10px] pl-[26px]'}>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808] text-[20px]'>
-              <a href="##">#Home</a>
+            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
+              <Link to="/">#Home</Link>
             </li>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808] text-[20px]'>
-              <a href="##">#About</a>
-            </li>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808] text-[20px]'>
-              <a href="##">#Projects</a>
-            </li>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808] text-[20px]'>
-              <a href="##">#Resume</a>
-            </li>
-            <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808] text-[20px]'>
-              <a href="##">#Contact</a>
-            </li>
+            <CustomLink to="/About">#About</CustomLink>
+            <CustomLink to="/Projects">#Projects</CustomLink>
+            <CustomLink to="/Resum">#Resum</CustomLink>
           </ul>
         </div>
       </div>
@@ -79,3 +60,15 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+
+function CustomLink({ to, children, ...props }) {
+  const path = window.location.pathname;
+  return (
+    <li className={path === to ? "hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]" : "hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]"}>
+      <Link to={to} {...props} >
+        {children}
+      </Link>
+    </li>
+  )
+}
