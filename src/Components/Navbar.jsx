@@ -1,5 +1,9 @@
 import React,  { useDarkmode } from '../Hook/useDarkmode';
 import {IoAppsSharp} from 'react-icons/io5'
+import {BsBookmarkFill} from 'react-icons/bs'
+import {FaBook} from 'react-icons/fa'
+import {VscProject} from 'react-icons/vsc'
+import {RiContactsFill} from 'react-icons/ri'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -46,14 +50,40 @@ const Navbar = () => {
               </svg>)}
             </span>
           </div>
-          <ul className={!navOpen ? 'hidden' : 'hidden absolute right-0 top-[77px] shadow-xl md:block md:w-[230px] md:h-[250px] md:bg-[#405089] pt-[15px] rounded-md justify-between space-y-[15px] mr-[10px] pl-[26px]'}>
+          <ul className={!navOpen ? 'hidden' : 'hidden absolute right-0 top-[77px] shadow-xl md:block md:w-[230px] md:h-[235px] md:bg-[#363d55] pt-[15px] rounded-md justify-between space-y-[20px] mr-[10px] pl-[26px]'}>
             <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-              <Link to="/">#Home</Link>
+              <Link to="/">
+                <div className='flex items-center space-x-5'>
+                  <IoAppsSharp />
+                  <span>Home</span>
+                </div>
+              </Link>
             </li>
-            <CustomLink to="/About">#About</CustomLink>
-            <CustomLink to="/Projects">#Projects</CustomLink>
-            <CustomLink to="/Resum">#Resum</CustomLink>
-            <CustomLink to="/Contact">#Contact</CustomLink>
+            <CustomLink to="/About">
+              <div className='flex items-center space-x-5'>
+                <FaBook />
+                <span>About</span>
+              </div>
+            </CustomLink>
+            <CustomLink to="/Projects">
+              <div className='flex items-center space-x-5'>
+                <VscProject />
+                <span>Projects</span>
+                
+              </div>
+            </CustomLink>
+            <CustomLink to="/Resum">
+              <div className='flex items-center space-x-5'>
+                <BsBookmarkFill />
+                <span>Resum</span>
+              </div>
+            </CustomLink>
+            <CustomLink to="/Contact">
+              <div className='flex items-center space-x-5'>
+                <RiContactsFill />
+                <span>Contact</span>
+              </div>
+            </CustomLink>
           </ul>
         </div>
       </div>

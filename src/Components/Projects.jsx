@@ -1,9 +1,8 @@
 import React from 'react'
-// import Navbar from './Navbar'
 import covid19_image from '../Assets/covid19.png'
 import dog_image from '../Assets/dog.png'
 import wordLens_image from '../Assets/lens.png'
-// import Footer from './Footer'
+import Footer from './Footer'
 
 const Projects = () => {
   return (
@@ -59,7 +58,6 @@ const Projects = () => {
               <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white '>
                 <p>View</p>
               </div>
-              
             </div>
           </div>
         </div>
@@ -136,20 +134,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
 
 export default Projects;
-
-
-// import React from 'react'
-
-// const Projects = () => {
-//   return (
-//     <div className="pt-[140px]">Projects</div>
-//   )
-// }
-
-// export default Projects
