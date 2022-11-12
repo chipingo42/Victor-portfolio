@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Resum from './Components/Resum';
+import Contact from './Components/Contact';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/About' element={<About/>}/>
         <Route path='/Projects' element={<Projects/>}/>
         <Route path='/Resum' element={<Resum/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
       </Routes>
     </div>
     

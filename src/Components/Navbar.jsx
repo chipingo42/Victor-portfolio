@@ -32,6 +32,7 @@ const Navbar = () => {
             <CustomLink to="/About">#About</CustomLink>
             <CustomLink to="/Projects">#Projects</CustomLink>
             <CustomLink to="/Resum">#Resum</CustomLink>
+            <CustomLink to="/Contact">#Contact</CustomLink>
           </ul>
           <div>
             <span onClick={() => setTheme(colorTheme)} className='flex'>
@@ -52,6 +53,7 @@ const Navbar = () => {
             <CustomLink to="/About">#About</CustomLink>
             <CustomLink to="/Projects">#Projects</CustomLink>
             <CustomLink to="/Resum">#Resum</CustomLink>
+            <CustomLink to="/Contact">#Contact</CustomLink>
           </ul>
         </div>
       </div>
