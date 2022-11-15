@@ -51,7 +51,7 @@ const Footer = () => {
                 </svg>
               </div>
             </div>
-            <p className=' font-Metamorphous font-[400] text-[17px] mr-[40px] pt-[20px] text-[#000000] dark:text-[#fff] md:text-[10px] '>
+            <p className=' font-Metamorphous font-[400] text-[17px] mr-[40px] pt-[20px] text-[#000000] dark:text-[#fff] md:text-[10px] sm:text-[7px] '>
               Copyright © 2022 designed by Christian Chiemela All rights reserved.
             </p>
             <svg className='absolute right-0 bottom-0  h-[250px] md:h-[180px] sm:h-[90px]' viewBox="0 0 99 392" fill="none" xmlns="http://www.w3.org/2000/svg">
