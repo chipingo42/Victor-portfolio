@@ -20,9 +20,9 @@ const Home = () => {
             </svg>
           </span>
           <div className='flex flex-col items-center justify-center  md:items-start'>
-            <h1 className='font-Metamorphous font-[400] text-[40px] pt-[222px] text-[#000000] dark:text-[#fff] lg:text-[38px] md:pt-[240px] md:text-[25px] sm:text-[10px]'>Hello world,</h1>
-            <h1 className=' font-Metamorphous font-[400] text-[48px] dark:text-[#fff] lg:text-[38px] md:text-[25px] md:min-h-[30px] sm:text-[10px] '>I’m Akalazu Victor Chichebem</h1>
-            <p className=' font-Metamorphous font-[400] text-[32px] text-gray-500 dark:text-gray-300 lg:text-[20px] lg:font-[100] md:min-h-[30px]  md:text-[17px] sm:text-[7px]'>a frontend engineer, specialised in javascript.</p>
+            <h1 className='font-Metamorphous font-[400] text-[40px] pt-[222px] text-[#000000] dark:text-[#fff] lg:text-[38px] md:pt-[240px] md:text-[25px] sm:text-[15px]'>Hello world,</h1>
+            <h1 className=' font-Metamorphous font-[400] text-[48px] dark:text-[#fff] lg:text-[38px] md:text-[25px] md:min-h-[30px] sm:text-[15px] '>I’m Akalazu Victor Chichebem</h1>
+            <p className=' font-Metamorphous font-[400] text-[32px] text-gray-500 dark:text-gray-300 lg:text-[20px] lg:font-[100] md:min-h-[30px]  md:text-[17px] sm:text-[10px]'>a frontend engineer, specialised in javascript.</p>
             <div className='grid grid-cols-4 gap-2 items-center mt-[60px] lg:mt-[30px] sm:gap-1 '>
               <span className='flex items-center justify-center  bg-[#2B33E038] dark:bg-[#FF6B6BE5] w-[40px] h-[40px] rounded-full lg:w-[35px] lg:h-[35px] md:w-[32px] md:-h-[32px] sm:w-[20px] sm:h-[20px] '>
                 <svg className=' fill-black dark:fill-white h-[18px] sm:h-[10px] ' viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ const Home = () => {
           </span>
         </div>
         <div className='flex items-center justify-center sm:items-start sm:justify-start '>
-          <p className='absolute bottom-0 font-Metamorphous font-[400] text-[17px] text-[#000000] dark:text-[#fff] md:text-[10px] md:font-[200] sm:text-[6px] '>
+          <p className='absolute bottom-0 font-Metamorphous font-[400] text-[17px] text-[#000000] dark:text-[#fff] md:text-[10px] md:font-[200] sm:text-[7px] '>
             Copyright © 2022 designed by Christian Chiemela All rights reserved.
           </p>
         </div>
