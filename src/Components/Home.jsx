@@ -62,8 +62,8 @@ const Home = () => {
             </svg>
           </span>
         </div>
-        <p className='flex items-center justify-center pt-20 sm:items-start font-Metamorphous font-[400] text-[17px] text-[#000000] dark:text-[#fff] md:text-[10px] md:font-[200]  sm:text-[14px]  sm:pt-12  '>
-          Copyright © 2022 designed by Christian Chiemela All rights reserved.
+        <p className='flex items-center justify-center pt-20 sm:items-start font-Metamorphous font-[400] text-[17px] text-[#000000] dark:text-[#fff] md:text-[10px] md:font-[200]  sm:text-[13px]  sm:pt-12  '>
+          Copyright © 2022 designed by Akalazu Victor All rights reserved.
         </p>
       </div>
 
