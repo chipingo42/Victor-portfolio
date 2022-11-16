@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className='flex justify-end '>
           <span>
-            <svg className='h-[100px]  md:h-[70px] md:mt-[100px] sm:mt-[10px] sm:mr-[10px] sm:h-[59px]' viewBox="0 0 150 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='h-[100px]  md:h-[70px] md:mt-[100px] sm:mt-[10px] sm:mr-[70px] sm:h-[59px]' viewBox="0 0 150 170" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="50" cy="84" r="50" fill="#FF6B6B" fillOpacity="0.9"/>
               <circle cx="100" cy="120" r="50" fill="#EFA434" fillOpacity="0.22"/>
               <circle cx="100" cy="50" r="50" fill="#2B33E3" fillOpacity="0.62"/>
