@@ -42,16 +42,16 @@ const Projects = () => {
               <p className=' font-Poppins font-[400]  text-[#000000] text-[12px] dark:text-white md:pt-[90px] md:text-[14px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br /> locality and even beyond your locality. This application will teach/guide you to <br /> prevent yourself from been infected.</p>
               <div className='flex space-x-5 items-center mt-[19px] sm:space-x-2'>
                 <span className='bg-[#2B33E39E] w-[70%] h-[40px] flex items-center justify-center'>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px]'>Reactjs</p>
+                  <p className=' font-Poppins text-[17px] text-white md:text-[17px] sm:text-[7px]'>Reactjs</p>
                 </span>
                 <span className='bg-[#151D3B] dark:bg-[#B10808] w-[70%] h-[40px] flex items-center justify-center'>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                  <p className=' font-Poppins text-[17px] text-white md:text-[17px] sm:text-[7px] '>CSS</p>
                 </span>
                 <span className='bg-[#FF6B6BE5] w-[70%] h-[40px] flex items-center justify-center'>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                  <p className=' font-Poppins text-[17px] text-white md:text-[17px] sm:text-[7px] '>Netlify</p>
                 </span>
                 <span className='bg-[#EFA43499] w-[70%] h-[40px] flex items-center justify-center'>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                  <p className=' font-Poppins text-[17px] text-white md:text-[17px] sm:text-[7px] '>Github</p>
                 </span>
               </div>
               <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
@@ -68,19 +68,16 @@ const Projects = () => {
           <div className='flex items-center justify-between space-x-10 md:block md:justify-center md:space-x-0'>
             <div className='px-[30px]'>
               <h1 className='font-Poppins  font-[400] text-[52px] text-[#000000] dark:text-white xl:text-[30px] lg:text-[28px] md:text-[30px] md:min-h-[30px] sm:text-[20px]  '>DogHub Application</h1>
-              <p className=' font-Poppins font-[400] text-[12px] text-[#000000] dark:text-white md:text-[14px]  '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br /> locality and even beyond your locality. This application will teach/guide you to <br /> prevent yourself from been infected.</p>
+              <p className=' font-Poppins font-[400] text-[12px] text-[#000000] dark:text-white md:text-[14px]'>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br /> locality and even beyond your locality. This application will teach/guide you to <br /> prevent yourself from been infected.</p>
               <div className='flex space-x-5 items-center mt-[19px] sm:space-x-2'>
                 <span className='bg-[#2B33E39E] w-[70%] h-[40px] flex items-center justify-center'>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>CSS</p>
                 </span>
                 <span className='bg-[#151D3B] dark:bg-[#B10808] w-[70%] h-[40px] flex items-center justify-center'>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Javascript</p>
                 </span>
                 <span className='bg-[#FF6B6BE5] w-[70%] h-[40px] flex items-center justify-center'>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
-                </span>
-                <span className='bg-[#EFA43499] w-[70%] h-[40px] flex items-center justify-center'>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Github</p>
                 </span>
               </div>
               <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
@@ -114,17 +111,14 @@ const Projects = () => {
               <h1 className=' font-Poppins font-[400] text-[42px] text-[#000000] dark:text-white lg:text-[28px] md:text-[30px] md:min-h-[30px] sm:text-[20px]  '>Wordlen Application</h1>
               <p className=' font-Poppins font-[400]  text-[#000000] text-[12px] dark:text-white md:pt-[90px] md:text-[14px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br /> locality and even beyond your locality. This application will teach/guide you to <br /> prevent yourself from been infected.</p>
               <div className='flex space-x-5 items-center mt-[19px] sm:space-x-2'>
-                <span className='flex items-center justify-center bg-[#2B33E39E] w-[70%] h-[40px]  '>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                <span className='bg-[#2B33E39E] w-[70%] h-[40px] flex items-center justify-center'>
+                    <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>CSS</p>
                 </span>
-                <span className='flex items-center justify-center bg-[#151D3B] dark:bg-[#B10808] w-[70%] h-[40px]  '>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                <span className='bg-[#151D3B] dark:bg-[#B10808] w-[70%] h-[40px] flex items-center justify-center'>
+                    <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Javascript</p>
                 </span>
-                <span className='flex items-center justify-center bg-[#FF6B6BE5] w-[70%] h-[40px]   '>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
-                </span>
-                <span className='flex items-center justify-center bg-[#EFA43499] w-[70%] h-[40px]  '>
-                  <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Reactjs</p>
+                <span className='bg-[#FF6B6BE5] w-[70%] h-[40px] flex items-center justify-center'>
+                    <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Github</p>
                 </span>
               </div>
               <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
