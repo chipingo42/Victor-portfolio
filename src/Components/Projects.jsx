@@ -14,8 +14,8 @@ const Projects = () => {
             <path d="M-2.91184 389.212C9.97975 389.207 22.744 386.662 34.6521 381.723C46.5601 376.784 57.3789 369.549 66.4906 360.429C75.6022 351.309 82.8284 340.484 87.7565 328.571C92.6846 316.659 95.2181 303.892 95.2124 291.001C95.2066 278.109 92.6618 265.345 87.7231 253.437C82.7844 241.529 75.5486 230.71 66.4288 221.598C57.309 212.487 46.4838 205.261 34.5714 200.332C22.6589 195.404 9.8924 192.871 -2.9992 192.877L-2.98347 228.219C5.26686 228.216 13.4371 229.837 21.0609 232.991C28.6846 236.145 35.6124 240.769 41.4489 246.601C47.2854 252.432 51.9161 259.356 55.0768 266.976C58.2374 274.597 59.8661 282.766 59.8698 291.016C59.8734 299.267 58.252 307.437 55.0982 315.061C51.9443 322.685 47.3197 329.612 41.4884 335.449C35.6572 341.285 28.7334 345.916 21.1125 349.077C13.4916 352.237 5.32277 353.866 -2.92756 353.87L-2.91184 389.212Z" fill="#FF6B6B" fillOpacity="0.9"/>
           </svg>
           <div className='flex flex-col justify-center items-center w-[70%] md:items-start'>
-            <h1 className='font-Metamorphous font-[400] text-[40px] pt-[192px] text-[#000000] dark:text-[#fff] lg:text-[38px] md:pt-[240px] md:text-[20px] sm:text-[18px] '>Hello Recruiter,</h1>
-            <h1 className=' font-Metamorphous font-[400] text-[38px] items-center dark:text-[#fff] lg:text-[38px] md:text-[30px] md:min-h-[30px] md:py-[20px] sm:text-[22px] '>Welcome to my project hub</h1>
+            <h1 className='font-Metamorphous font-[400] text-[40px] pt-[192px] text-[#000000] dark:text-[#fff] lg:text-[38px] md:pt-[200px] md:text-[20px] sm:pt-[150px] sm:text-[20px] '>Hello Recruiter,</h1>
+            <h1 className=' font-Metamorphous font-[400] text-[38px] items-center dark:text-[#fff] lg:text-[38px] md:text-[30px] md:min-h-[30px] md:py-[20px] sm:text-[35px] sm:leading-10 '>Welcome to my project hub</h1>
             <p className=' font-Metamorphous font-[200] text-[20px] text-gray-500 dark:text-gray-300 lg:text-[25px] lg:font-[100] md:min-h-[30px]  md:text-[17px] sm:text-[14px] '>As a frontend engineer, specialist in javascript. I have some couple of projects built with javascript libraries and typescript. Am always a ReactJs fan</p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const Projects = () => {
           </svg>
         </span>
         <div className='h-full w-full'>
-          <h1 className=' mx-[30px] font-Metamorphous font-[400] text-[92px] text-[#000000] dark:text-[#fff] lg:text-[58px]  md:text-[45px] sm:text-[25px]  '>Recent Projects</h1>
+          <h1 className=' mx-[30px] font-Metamorphous font-[400] text-[92px] text-[#000000] dark:text-[#fff] lg:text-[58px]  md:text-[45px] sm:text-[39px] sm:leading-10  '>Recent Projects</h1>
           <div className='flex items-center  justify-between md:block md:justify-center'>
             <div className='bg-gray-100 dark:bg-gray-700 h-full w-[600px] mt-[187px] relative md:mt-[90px] md:w-full '>
               <svg className='absolute right-[-20px] top-[-4px] md:hidden' width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ const Projects = () => {
               <img src={covid19_image} alt="/" />
             </div>
             <div className='px-[30px]'>
-              <h1 className=' font-Poppins font-[400] text-[42px] text-[#000000] dark:text-white xl:text-[30px] lg:text-[28px] md:text-[30px] md:min-h-[30px] sm:text-[30px]  '>Cov19Strain Application</h1>
+              <h1 className=' font-Poppins font-[400] text-[42px] text-[#000000] dark:text-white xl:text-[30px] lg:text-[28px] md:text-[30px] md:min-h-[30px] sm:text-[20px]  '>Cov19Strain Application</h1>
               <p className=' font-Poppins font-[400]  text-[#000000] text-[12px] dark:text-white md:pt-[90px] md:text-[14px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br /> locality and even beyond your locality. This application will teach/guide you to <br /> prevent yourself from been infected.</p>
               <div className='flex space-x-5 items-center mt-[19px] sm:space-x-2'>
                 <span className='bg-[#2B33E39E] w-[70%] h-[40px] flex items-center justify-center'>
@@ -67,7 +67,7 @@ const Projects = () => {
           </svg>
           <div className='flex items-center justify-between space-x-10 md:block md:justify-center md:space-x-0'>
             <div className='px-[30px]'>
-              <h1 className='font-Poppins  font-[400] text-[52px] text-[#000000] dark:text-white xl:text-[30px] lg:text-[28px] md:text-[30px] md:min-h-[30px] sm:text-[30px]  '>DogHub Application</h1>
+              <h1 className='font-Poppins  font-[400] text-[52px] text-[#000000] dark:text-white xl:text-[30px] lg:text-[28px] md:text-[30px] md:min-h-[30px] sm:text-[20px]  '>DogHub Application</h1>
               <p className=' font-Poppins font-[400] text-[12px] text-[#000000] dark:text-white md:text-[14px]  '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br /> locality and even beyond your locality. This application will teach/guide you to <br /> prevent yourself from been infected.</p>
               <div className='flex space-x-5 items-center mt-[19px] sm:space-x-2'>
                 <span className='bg-[#2B33E39E] w-[70%] h-[40px] flex items-center justify-center'>
@@ -111,7 +111,7 @@ const Projects = () => {
               <img src={wordLens_image} alt="/" />
             </div>
             <div className='px-[30px]'>
-              <h1 className=' font-Poppins font-[400] text-[42px] text-[#000000] dark:text-white lg:text-[28px] md:text-[30px] md:min-h-[30px] sm:text-[30px]  '>Wordlen Application</h1>
+              <h1 className=' font-Poppins font-[400] text-[42px] text-[#000000] dark:text-white lg:text-[28px] md:text-[30px] md:min-h-[30px] sm:text-[20px]  '>Wordlen Application</h1>
               <p className=' font-Poppins font-[400]  text-[#000000] text-[12px] dark:text-white md:pt-[90px] md:text-[14px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br /> locality and even beyond your locality. This application will teach/guide you to <br /> prevent yourself from been infected.</p>
               <div className='flex space-x-5 items-center mt-[19px] sm:space-x-2'>
                 <span className='flex items-center justify-center bg-[#2B33E39E] w-[70%] h-[40px]  '>
