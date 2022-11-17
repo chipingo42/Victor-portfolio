@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resum = () => {
   return (
-    <div className=''>Resum</div>
+    <div className='pt-[90px]'>will work on this later</div>
   )
 }
 
