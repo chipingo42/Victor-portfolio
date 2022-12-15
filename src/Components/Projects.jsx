@@ -16,7 +16,7 @@ const Projects = () => {
           <div className='flex flex-col justify-center items-center w-[70%] md:items-start'>
             <h1 className='font-Metamorphous font-[400] text-[40px] pt-[192px] text-[#000000] dark:text-[#fff] lg:text-[38px] md:pt-[200px] md:text-[20px] sm:pt-[150px] sm:text-[20px] '>Hello Recruiter,</h1>
             <h1 className=' font-Metamorphous font-[400] text-[38px] items-center dark:text-[#fff] lg:text-[38px] md:text-[30px] md:min-h-[30px] md:py-[20px] sm:text-[35px] sm:leading-10 '>Welcome to my project hub</h1>
-            <p className=' font-Metamorphous font-[200] text-[20px] text-gray-500 dark:text-gray-300 lg:text-[25px] lg:font-[100] md:min-h-[30px]  md:text-[17px] sm:text-[14px] '>As a frontend engineer, specialist in javascript. I have some couple of projects built with javascript libraries and typescript. Am always a ReactJs fan</p>
+            <p className=' font-Metamorphous font-[200] text-[25px] text-gray-500 dark:text-gray-300 lg:text-[25px] lg:font-[100] md:min-h-[30px]  md:text-[17px] sm:text-[14px] '>As a frontend engineer, specialist in javascript. I have some couple of projects built with javascript libraries and typescript. Am always a ReactJs fan</p>
           </div>
         </div>
         <span className='flex justify-end'>
