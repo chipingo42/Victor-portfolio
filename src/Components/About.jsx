@@ -27,7 +27,7 @@ const About = () => {
             </svg>
           </span>
           <div>
-            <h1 className='font-Metamorphous font-[400] text-[70px] text-black dark:text-white md:text-[40px] sm:text-[28px] bg-red-500 '>About Me</h1>
+            <h1 className='font-Metamorphous pt-[80px] font-[400] text-[70px] text-black dark:text-white md:text-[40px] sm:text-[28px] '>About Me</h1>
             <div className='w-full h-full bg-white dark:bg-[#172450] mt-[12px] '>
               <div className='px-[30px] py-[40px]'>
                 <h2 className=' font-Poppins font-[400] text-[25px] text-black dark:text-white '>Hello Recruiter,</h2>
