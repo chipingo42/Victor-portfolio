@@ -4,6 +4,8 @@ import dog_image from '../Assets/dog.png'
 import wordLens_image from '../Assets/lens.png'
 import Footer from './Footer'
 
+
+
 const Projects = () => {
   return (
     <>
@@ -54,9 +56,9 @@ const Projects = () => {
                   <p className=' font-Poppins text-[17px] text-white md:text-[17px] sm:text-[7px] '>Github</p>
                 </span>
               </div>
-              <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
+              <a href='https://cov19strain-covid19.netlify.app/' className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
                 <p className='font-Metamorphous text-[15px] md:text-[12px]'>View</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -80,9 +82,9 @@ const Projects = () => {
                   <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Github</p>
                 </span>
               </div>
-              <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
+              <a href='https://chipingo42.github.io/DogHub/' className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
                 <p className='font-Metamorphous text-[15px] md:text-[12px]'>View</p>
-              </div>
+              </a>
             </div>
             <div className='bg-gray-100 dark:bg-gray-700 h-full w-[600px] mt-[187px] relative md:w-full md:mt-[30px] '>
               <svg className='absolute left-[-21px] top-[-10px] md:hidden '  width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -121,9 +123,9 @@ const Projects = () => {
                     <p className=' font-Poppins text-[20px] text-white md:text-[17px] sm:text-[7px] '>Github</p>
                 </span>
               </div>
-              <div className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
+              <a href='https://chipingo42.github.io/Wordlens/' className=' h-[120px] w-[120px] bg-[#FF6B6BE5] rounded-full mt-[40px] flex items-center justify-center font-Poppins font-[300] text-[20px] dark:text-white md:w-[70px] md:h-[70px] '>
                 <p className=' font-Metamorphous text-[15px] md:text-[12px] sm:text-[7px] '>View</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
