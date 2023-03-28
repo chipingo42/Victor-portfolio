@@ -16,7 +16,6 @@ module.exports = {
       },
       content: {
         circle: "url('./svg/circle.svg')",
-        sideBg: "url('./svg/sideBg.svg')",
       }
     },
   },
