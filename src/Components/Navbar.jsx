@@ -41,7 +41,7 @@ const Navbar = () => {
                 <CustomLink to="/Contact">#Contact</CustomLink>
               </ul>) : (
               <button onClick={() => setNavOpen(!navOpen)}>
-                <IoAppsSharp className='dark:text-[#fff]' />
+                <IoAppsSharp className='dark:text-[#fff] ' />
               </button>
             )}
             <div>
