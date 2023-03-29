@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
      <Navbar />
-      <div className='pt-[90px] dark:text-white'>will work on this later</div>
+      <div className='pt-[90px] dark:text-black font-Metamorphous'>still working on  contact</div>
     </>
   )
 }
