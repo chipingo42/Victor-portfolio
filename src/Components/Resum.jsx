@@ -6,4 +6,4 @@ const Resum = () => {
   )
 }
 
-export default Resum
+export default Resum;

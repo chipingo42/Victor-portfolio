@@ -33,12 +33,21 @@ const Navbar = () => {
             {isAboveMediumScreens ? ( 
               <ul className={`${flexBetween} space-x-[52px] mr-[30px] `}>
                 <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-                <Link to="/">#Home</Link>
+                  <Link to="/">#Home</Link>
                 </li>
-                <CustomLink to="/About">#About</CustomLink>
-                <CustomLink to="/Projects">#Projects</CustomLink>
-                <CustomLink to="/Resum">#Resum</CustomLink>
-                <CustomLink to="/Contact">#Contact</CustomLink>
+                <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
+                  <Link to="/About">#About</Link>
+                </li>
+                <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
+                  <Link to="/Projects">#Projects</Link>
+                </li>
+                <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
+                  <a href="https://docs.google.com/document/d/1mZq7PwC7GOdkUc5enMje6BuGs0B9knDp4CZJ2feKZvA/edit?usp=share_link">#Resum</a>
+                </li>
+                <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
+                  <Link to="/Contact">#Contact</Link>
+                </li>
+
               </ul>) : (
               <button onClick={() => setNavOpen(!navOpen)}>
                 <IoAppsSharp className='dark:text-[#fff] ' />
@@ -63,38 +72,29 @@ const Navbar = () => {
       {!isAboveMediumScreens && navOpen && (
         <ul className='absolute z-50 top-20 right-0 w-4/6 shadow-xl max-md:bg-[#363d55] py-10 text-white rounded-md  space-y-[20px] pl-[26px]'>
           <li className='hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]'>
-            <Link to="/">
-              <div className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
-                <IoAppsSharp />
-                <span>Home</span>
-              </div>
+            <Link to="/" className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
+              <IoAppsSharp />
+              <span>Home</span>
             </Link>
           </li>
-          <CustomLink to="/About">
-            <div className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
-              <FaBook />
-              <span>About</span>
-            </div>
-          </CustomLink>
-          <CustomLink to="/Projects">
-            <div className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
-              <VscProject />
-              <span>Projects</span>
-              
-            </div>
-          </CustomLink>
-          <CustomLink to="/Resum">
-            <div className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
+          <Link to="/About" className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
+            <FaBook />
+            <span>About</span>
+          </Link>
+          <Link to="/Projects" className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
+            <VscProject />
+            <span>Projects</span>
+          </Link>
+          <li>
+            <a className='flex items-center space-x-5' href="https://docs.google.com/document/d/1mZq7PwC7GOdkUc5enMje6BuGs0B9knDp4CZJ2feKZvA/edit?usp=share_link">
               <BsBookmarkFill />
               <span>Resum</span>
-            </div>
-          </CustomLink>
-          <CustomLink to="/Contact">
-            <div className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
-              <RiContactsFill />
-              <span>Contact</span>
-            </div>
-          </CustomLink>
+            </a>
+          </li>
+          <Link to="/Contact" className='flex items-center space-x-5' onClick={() => setNavOpen(!navOpen)}>
+            <RiContactsFill />
+            <span>Contact</span>
+          </Link>
         </ul> 
       )}
     </nav>
@@ -103,16 +103,5 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-function CustomLink({ to, children, ...props }) {
-  const path = window.location.pathname;
-  return (
-    <li className={path === to ? "hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]" : "hover:text-[#B10808] dark:text-[#fff] dark:hover:text-[#B10808]"}>
-      <Link to={to} {...props} >
-        {children}
-      </Link>
-    </li>
-  )
-}
 
 

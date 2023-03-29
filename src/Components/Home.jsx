@@ -2,7 +2,6 @@ import React from 'react'
 
 
 
-
 const socialLinks = [
   {
     svg: <svg className=' fill-black dark:fill-white h-[18px]  max-sm:h-[10px] ' viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,7 +14,7 @@ const socialLinks = [
     </svg>
   },
   {
-    svg: <svg className=' fill-black dark:fill-white h-[18px] max-sm:h-[10px] ' viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    svg: <svg className='fill-black dark:fill-white h-[18px] max-sm:h-[10px] ' viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M4.47679 20H0.330357V6.64702H4.47679V20ZM2.40134 4.82555C1.07545 4.82555 0 3.72732 0 2.40139C9.49017e-09 1.7645 0.252998 1.1537 0.703336 0.703352C1.15367 0.253003 1.76446 0 2.40134 0C3.03821 0 3.649 0.253003 4.09934 0.703352C4.54968 1.1537 4.80268 1.7645 4.80268 2.40139C4.80268 3.72732 3.72679 4.82555 2.40134 4.82555ZM19.9955 20H15.858V13.4999C15.858 11.9507 15.8268 9.96406 13.7022 9.96406C11.5464 9.96406 11.2161 11.6471 11.2161 13.3882V20H7.07411V6.64702H11.0509V8.46849H11.1089C11.6625 7.41936 13.0147 6.31219 15.0321 6.31219C19.2286 6.31219 20 9.07565 20 12.665V20H19.9955Z"/>
     </svg>
   },
@@ -27,7 +26,12 @@ const socialLinks = [
 ]
 
 
+
 const Home = () => {
+
+
+  const upDate = new Date().getFullYear();
+
 
   return (
     <div className='gap-16 bg-[#E5E5E5] dark:bg-[#151D3B] py-10 md:min-h-screen md:pb-0 w-full overflow-x-hidden max-md:min-h-screen'>
@@ -40,9 +44,9 @@ const Home = () => {
       <div className='md:flex flex-col mx-auto w-4/6 items-center justify-center md:h-5/6 max-md:w-11/12'>
         <div className='relative top-0'>
           <div className=' flex items-center justify-center flex-col before:absolute before:content-circle before:-top-32 before:-left-14 before:z-[1] md:-mt-16 max-md:before:left-20 max-sm:before:-top-10 max-xs:before:left-7 max-xs:before:-top-14'>
-            <h1 className='font-Metamorphous font-normal text-[40px] text-[#000000] dark:text-white max-md:text-[20px] max-xs:text-[14px]'>Hello world,</h1>
+            <h1 className='font-Metamorphous font-normal text-[40px] text-[#000000] dark:text-white max-md:text-[20px] max-xs:text-[27px]'>Hello world,</h1>
             <h2 className='font-Metamorphous font-normal text-[48px] dark:text-[#fff] mt-[30px] max-md:text-[30px] max-sm:text-[25px] max-xs:text-[32px] '>I’m Akalazu Victor <span className=' max-xs:flex justify-center'>Chichebem</span></h2>
-            <span className='text-[32px] text-gray-500 dark:text-gray-300  max-md:text-[20px] max-sm:text-[18px] max-xs:text-[20px]'>a frontend engineer, specialised in javascript.</span>
+            <span className='text-[32px] text-gray-500 dark:text-gray-300  max-md:text-[20px] max-sm:text-[18px] max-xs:text-[18px]'>a frontend engineer, specialised in javascript.</span>
           </div>
         </div>
         <div className='flex justify-center gap-8 items-center mt-[40px] max-md:gap-5 max-xs:gap-2'>
@@ -59,7 +63,7 @@ const Home = () => {
           <path d="M99.1731 1.00274C86.2815 1.0024 73.5161 3.54125 61.6057 8.47433C49.6953 13.4074 38.8731 20.6381 29.7571 29.7536C20.6412 38.8691 13.4099 49.6909 8.47618 61.601C3.54247 73.5112 1.00294 86.2764 1.0026 99.168C1.00226 112.06 3.54111 124.825 8.47419 136.735C13.4073 148.646 20.638 159.468 29.7535 168.584C38.869 177.7 49.6907 184.931 61.6009 189.865C73.511 194.799 86.2763 197.338 99.1679 197.339L99.1688 161.996C90.9185 161.996 82.749 160.37 75.1268 157.213C67.5045 154.056 60.5789 149.428 54.7451 143.594C48.9114 137.76 44.2839 130.834 41.1269 123.211C37.9698 115.589 36.345 107.419 36.3452 99.169C36.3454 90.9186 37.9707 82.7491 41.1281 75.1269C44.2856 67.5047 48.9135 60.579 54.7475 54.7453C60.5815 48.9116 67.5074 44.2841 75.1298 41.127C82.7522 37.9699 90.9218 36.3451 99.1722 36.3454L99.1731 1.00274Z" fill="#FF6B6B" fillOpacity="0.9"/>
           </svg>
         </div>
-        <p className='flex items-center justify-center mt-[140px] dark:text-white absolute bottom-3 max-sm:relative '>Copyright © 2022 designed by Akalazu Victor Chichebem All rights reserved.</p>
+        <p className=' dark:text-white absolute bottom-5 font-Metamorphous font-normal '>Copyright © <span>{upDate}</span> designed by Akalazu Victor Chichebem All rights reserved.</p>
       </div>
     </div>
   )
