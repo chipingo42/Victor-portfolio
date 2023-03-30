@@ -1,11 +1,32 @@
 import React from 'react'
+import { useForm } from 'react-hook-form'
 import Navbar from '../Components/Navbar'
 import Footer from './Footer'
 
+
+
+
 const Contact = () => {
 
-  const input = `block mb-5 w-full py-4 bg-gray-100 my-4 dark:bg-gray-900 outline-none pl-5 border-none dark:text-white`
-  const label = `font-Metamorphous font-light text-black dark:text-white`
+  const input = `block mb-7 w-full py-4 bg-gray-100 my-4 dark:bg-gray-900 outline-none pl-5 border-none dark:text-white`
+  const label = `font-Metamorphous font-light text-black dark:text-white relative top-2`
+
+
+  const {
+    register,
+    trigger,
+    formState: { errors }
+  } = useForm()
+
+  const onSubmit = async (e) => {
+    const isValid = await trigger();
+    if (!isValid) {
+      e.preventDefault();
+    }
+
+  }
+
+
   return (
     <>
      <Navbar />
@@ -24,24 +45,84 @@ const Contact = () => {
             <div className='md:w-full py-10 bg-white dark:bg-[#172450] mt-[12px] px-14 max-xs:px-5'>
               <h1 className=' font-Metamorphous font-normal text-[20px] text-black dark:text-white'>Dear <span className=' text-red-300 dark:text-red-500'>Recruiter</span>,</h1>
               <p className=' font-Metamorphous font-light text-[18px] text-black dark:text-white mt-5'>Please fill the form, will respones with 24 hours.</p>
-              <form className='mt-5'>
+              <form className='mt-7'
+                target="_blank"
+                onSubmit={onSubmit}
+                action="https://formsubmit.co/11bbfe2994357cad413dba4411ebb2f6"
+                method="POST"
+              >
                 <div>
                   <label htmlFor="Recruiter" className={label} >Recruiter's Name</label>
-                  <input type="text" id='Recruiter' className={input} />
+                  <input
+                    type="text"
+                    id='Recruiter' 
+                    className={input}
+                    {...register("name", {
+                      required: true, 
+                      maxLength: 100,
+                    })}
+                  />
+                  {errors.name && (
+                    <p className="-mt-5 text-[11px] text-red-500">
+                    {errors.name.type === "required" && "This field is required."}
+                    {errors.name.type === "maxLength" && "Max length is 100 chara."}
+                  </p>
+                )}
                 </div>
                 <div>
                   <label htmlFor="Company" className={label}>Company's Name</label>
-                  <input type="text" id='Company' className={input} />
+                  <input 
+                   type="text"
+                   id='Company'
+                    className={input} 
+                    {...register("name", {
+                      required: true, 
+                      maxLength: 100,
+                    })}
+                  />
+                  {errors.name && (
+                      <p className="-mt-5 text-[11px] text-red-500">
+                      {errors.name.type === "required" && "This field is required."}
+                      {errors.name.type === "maxLength" && "Max length is 100 chara."}
+                    </p>
+                  )}
                 </div>
                 <div>
                   <label htmlFor="email" className={label}>Email Address</label>
-                  <input type="text" id='email' className={input} />
+                  <input 
+                    type="text" 
+                    id='email' 
+                    className={input}
+                    {...register("email", {
+                      required: true, 
+                      pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                    })}
+                  />
+                  {errors.email && (
+                    <p className="-mt-5 text-[11px] text-red-500">
+                      {errors.email.type === "required" && "This field is required."}
+                      {errors.email.type === "pattern" && "invalid email address"}
+                    </p>
+                  )}
                 </div>
                 <div>
                   <label htmlFor="text" className={label}>Description</label>
-                  <textarea  id="text" cols="30" rows="5" className={input}></textarea>
+                  <textarea  
+                    id="text" cols="30" rows="5" 
+                    className={input}
+                    {...register("message", {
+                      required: true, 
+                      maxLength: 2000,
+                    })}
+                  />
+                  {errors.message && (
+                  <p className="-mt-5 text-[11px] text-red-500">
+                    {errors.message.type === "required" && "This field is required."}
+                    {errors.message.type === "maxLength" && "Max length is 2000 chara."}
+                  </p>
+                )}
                 </div>
-                <input type="submit" value='Send' className={`${input} bg-red-300 text-white dark:bg-blue-900`} />
+                <button type="submit" className={`${input} bg-red-300 text-white dark:bg-blue-900`} >Send</button>
               </form>
             </div>
           </div>
