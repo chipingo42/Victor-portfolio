@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../Assets/logo.png'
+
 
 
 
@@ -9,7 +9,7 @@ const Footer = () => {
   const upDate = new Date().getFullYear();
 
   return (
-    <footer className='bg-white  w-full dark:bg-[#151D3B] dark:text-white  py-10 overflow-x-hidden'>
+    <footer className='bg-[#FAF9F8]  w-full dark:bg-[#151D3B] dark:text-white  py-10 overflow-x-hidden'>
       <div className='md:flex items-center w-11/12 mx-auto'>
         <div className='basis-2/5'>
           <div className='flex items-center gap-3'>
