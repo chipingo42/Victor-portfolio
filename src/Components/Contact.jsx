@@ -40,7 +40,7 @@ const Contact = () => {
             <h1 className=' font-Metamorphous font-extralight rounded-md text-[40px] text-black dark:text-white'>Hire me</h1>
             <div className='md:w-full py-10 bg-white dark:bg-[#172450] mt-[12px] px-14 max-xs:px-5'>
               <h1 className=' font-Metamorphous font-normal text-[20px] text-black dark:text-white'>Dear <span className=' text-red-300 dark:text-red-500'>Recruiter</span>,</h1>
-              <p className=' font-Metamorphous font-light text-[18px] text-black dark:text-white mt-5'>Please fill the form, will respones with 24 hours.</p>
+              <p className=' font-Metamorphous font-light text-[18px] text-black dark:text-white mt-5'>Please fill the form, will respones withIn 24 hours.</p>
               <form className='mt-7'
                 target="_blank"
                 onSubmit={onSubmit}
