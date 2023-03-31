@@ -5,12 +5,7 @@ import Footer from './Footer'
 
 
 
-
 const Contact = () => {
-
-  const input = `block mb-7 w-full py-4 bg-gray-100 my-4 dark:bg-gray-900 outline-none pl-5 border-none dark:text-white`
-  const label = `font-Metamorphous font-light text-black dark:text-white relative top-2`
-
 
   const {
     register,
@@ -23,9 +18,10 @@ const Contact = () => {
     if (!isValid) {
       e.preventDefault();
     }
-
   }
-
+  
+  const input = `block mb-7 w-full py-4 bg-gray-100 my-4 dark:bg-gray-900 outline-none pl-5 border-none dark:text-white`;
+  const label = `font-Metamorphous font-light text-black dark:text-white relative top-2`;
 
   return (
     <>
