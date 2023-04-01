@@ -75,7 +75,7 @@ const Projects = () => {
               </div>
             </div>
             <div className='basis-3/6 max-md:mt-14'>
-              <svg className='absolute right-0 w-[500px]  max-md:w-full max-sm:w-0'  viewBox="0 0 840 1037" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className='absolute right-0 w-[500px] py-5  max-md:w-full max-sm:w-0'  viewBox="0 0 840 1037" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="-9" width="849" height="1037" fill="#A8ADBF" fillOpacity="0.15"/>
               </svg>
               <img src={dog_image} alt="" className='absolute right-0 w-[500px] max-md:relative max-md:w-full max-md:ml-0 ' /> 
