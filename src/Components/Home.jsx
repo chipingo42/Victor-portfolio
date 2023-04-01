@@ -1,4 +1,7 @@
+import { motion } from 'framer-motion';
 import React from 'react'
+
+
 
 
 
@@ -31,6 +34,7 @@ const Home = () => {
 
   const upDate = new Date().getFullYear();
 
+
   return (
     <div className='gap-16 bg-[#E5E5E5] dark:bg-[#151D3B] py-10 md:min-h-screen md:pb-0 w-full overflow-x-hidden max-md:min-h-screen'>
       <span className=' relative top-[40px]'>
@@ -42,7 +46,17 @@ const Home = () => {
       <div className='md:flex flex-col mx-auto w-4/6 items-center justify-center md:h-5/6 max-md:w-11/12'>
         <div className='relative top-0'>
           <div className=' flex items-center justify-center flex-col before:absolute before:content-circle before:-top-32 before:-left-14 before:z-[1] md:-mt-16 max-md:before:left-20 max-sm:before:-top-10 max-xs:before:left-7 max-xs:before:-top-14'>
-            <h1 className='font-Metamorphous font-normal text-[40px] text-[#000000] dark:text-white max-md:text-[20px] max-xs:text-[27px]'>Hello world,</h1>
+            <motion.h1 
+              className='font-Metamorphous font-normal text-[40px] text-[#000000] dark:text-white max-md:text-[20px] max-xs:text-[27px]'
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, x: -50},
+                visible: { opacity: 1, x: 0}
+              }}
+            >Hello world,</motion.h1>
             <h2 className='font-Metamorphous font-normal text-[48px] dark:text-[#fff] mt-[30px] max-md:text-[30px] max-sm:text-[25px] max-xs:text-[32px] '>I’m Akalazu Victor <span className=' max-xs:flex justify-center'>Chichebem</span></h2>
             <span className='text-[32px] text-gray-500 dark:text-gray-300  max-md:text-[20px] max-sm:text-[18px] max-xs:text-[18px]'>a frontend engineer, specialised in javascript.</span>
           </div>
