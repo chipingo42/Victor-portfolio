@@ -7,11 +7,7 @@ import Footer from './Footer'
 
 const Contact = () => {
 
-  const {
-    register,
-    trigger,
-    formState: { errors }
-  } = useForm()
+  const { register, trigger, formState: { errors } } = useForm()
 
   const onSubmit = async (e) => {
     const isValid = await trigger();
@@ -48,7 +44,7 @@ const Contact = () => {
                 method="POST"
               >
                 <div>
-                  <label htmlFor="Recruiter" className={label} >Recruiter's Name</label>
+                  <label htmlFor="Recruiter" className={label}>Recruiter's Name</label>
                   <input
                     type="text"
                     id='Recruiter' 
@@ -59,7 +55,7 @@ const Contact = () => {
                     })}
                   />
                   {errors.name && (
-                    <p className="-mt-5 text-[11px] text-red-500">
+                  <p className="-mt-5 text-[11px] text-red-500">
                     {errors.name.type === "required" && "This field is required."}
                     {errors.name.type === "maxLength" && "Max length is 100 chara."}
                   </p>
@@ -77,7 +73,7 @@ const Contact = () => {
                     })}
                   />
                   {errors.name && (
-                      <p className="-mt-5 text-[11px] text-red-500">
+                    <p className="-mt-5 text-[11px] text-red-500">
                       {errors.name.type === "required" && "This field is required."}
                       {errors.name.type === "maxLength" && "Max length is 100 chara."}
                     </p>
@@ -112,11 +108,11 @@ const Contact = () => {
                     })}
                   />
                   {errors.message && (
-                  <p className="-mt-5 text-[11px] text-red-500">
-                    {errors.message.type === "required" && "This field is required."}
-                    {errors.message.type === "maxLength" && "Max length is 2000 chara."}
-                  </p>
-                )}
+                    <p className="-mt-5 text-[11px] text-red-500">
+                      {errors.message.type === "required" && "This field is required."}
+                      {errors.message.type === "maxLength" && "Max length is 2000 chara."}
+                    </p>
+                  )}
                 </div>
                 <button type="submit" className={`${input} bg-red-300 text-white dark:bg-blue-900`} >Send</button>
               </form>
