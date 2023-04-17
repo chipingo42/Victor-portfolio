@@ -98,7 +98,7 @@ const About = () => {
             </svg>
           </div>
           <div>
-            <h1 className='font-Metamorphous pt-[180px] font-normal text-[70px] text-black dark:text-white max-xs:text-[50px]'>About Me</h1>
+            <h1 className='font-Metamorphous pt-[180px] font-normal text-[71px] text-black dark:text-white max-xs:text-[50px]'>About Me</h1>
             <div className='md:w-full py-10 bg-white dark:bg-[#172450] mt-[12px] px-10 max-xs:px-5'>
               <div>
                 <h2 className=' font-Poppins font-normal text-[25px] text-black dark:text-white '>Hello Recruiter,</h2>
