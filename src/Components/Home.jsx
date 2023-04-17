@@ -30,7 +30,6 @@ const Home = () => {
 
   const upDate = new Date().getFullYear();
 
-
   return (
     <div className='gap-16 bg-[#E5E5E5] dark:bg-[#151D3B] py-10 md:min-h-screen md:pb-0 w-full overflow-x-hidden max-md:min-h-screen'>
       <span className=' relative top-[40px]'>
@@ -63,7 +62,7 @@ const Home = () => {
             <path d="M99.1731 1.00274C86.2815 1.0024 73.5161 3.54125 61.6057 8.47433C49.6953 13.4074 38.8731 20.6381 29.7571 29.7536C20.6412 38.8691 13.4099 49.6909 8.47618 61.601C3.54247 73.5112 1.00294 86.2764 1.0026 99.168C1.00226 112.06 3.54111 124.825 8.47419 136.735C13.4073 148.646 20.638 159.468 29.7535 168.584C38.869 177.7 49.6907 184.931 61.6009 189.865C73.511 194.799 86.2763 197.338 99.1679 197.339L99.1688 161.996C90.9185 161.996 82.749 160.37 75.1268 157.213C67.5045 154.056 60.5789 149.428 54.7451 143.594C48.9114 137.76 44.2839 130.834 41.1269 123.211C37.9698 115.589 36.345 107.419 36.3452 99.169C36.3454 90.9186 37.9707 82.7491 41.1281 75.1269C44.2856 67.5047 48.9135 60.579 54.7475 54.7453C60.5815 48.9116 67.5074 44.2841 75.1298 41.127C82.7522 37.9699 90.9218 36.3451 99.1722 36.3454L99.1731 1.00274Z" fill="#FF6B6B" fillOpacity="0.9"/>
           </svg>
         </div>
-        <p className='dark:text-white absolute bottom-5 font-Metamorphous font-normal text-black'>Copyright © <span>{upDate}</span> designed by Akalazu Victor Chichebem All rights reserved.</p>
+        <p className='dark:text-white absolute bottom-5 font-Metamorphous font-normal text-black'>Copyright © {upDate} designed by Akalazu Victor Chichebem All rights reserved.</p>
       </div>
     </div>
   )

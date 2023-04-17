@@ -71,6 +71,8 @@ const AboutObj = [
 
 const About = () => {
 
+  
+
   const icons = `bg-[#FF6B6BE5] h-[20px] w-[20px] rounded-full flex items-center justify-center`
   const titleClass = `font-Poppins font-light text-[18px] text-black dark:text-white max-xs:text-[15px]`;
 

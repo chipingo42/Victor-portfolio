@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
           </div>
           <p className='ml-32 font-Metamorphous font-normal text-[17px] mt-[20px] text-[#000000] dark:text-[#fff] max-sm:ml-0 max-sm:text-[12px] '>
-            Copyright © <span>{upDate}</span> designed by Akalazu Victor All rights reserved.
+            Copyright © {upDate} designed by Akalazu Victor All rights reserved.
           </p>
         </div>
       </div>
