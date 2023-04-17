@@ -8,68 +8,63 @@ const AboutObj = [
   {
     familiarStacks: [
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'JavaScript (ES6)',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'ReactJs',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'CSS3',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Typescript',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'TailwindCSS',
-      },
-      {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
-        title: 'Style-Components',
       },
     ],
     versionAndDeployment: [
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Git',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Github',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Netlify',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Vercel',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Cloudflare',
       }
     ],
     hobbies: [
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Cooking',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Fotball',
       },
       {
-        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000] ' />,
+        icon:  <BsDot className=' text-[27px] text-white dark:text-[#000000]' />,
         title: 'Dancing',
       }
     ],
   },
-  
 ]
 
 
@@ -139,7 +134,7 @@ const About = () => {
                     </div>
                     <div>
                       <h1 className='font-Poppins font-light text-[20px] text-black dark:text-white pt-[15px]'>Why I choose Tech:</h1>
-                      <p className='font-Poppins font-normal text-[16px] pt-[13px] text-black dark:text-white max-xs:text-[14px]'>I really Want to make the Whole World a better place because With <strong>TECH</strong> everything is possible and i really Want to go across nations With Tech</p>
+                      <p className='font-Poppins font-normal text-[16px] pt-[13px] text-black dark:text-white max-xs:text-[14px]'>I really Want to make the Whole World a better place because With <strong>TECH</strong> everything is possible and i really Want to go across nations With <strong>Tech</strong> </p>
                     </div>
                   </div>
                 ))}
