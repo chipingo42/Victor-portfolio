@@ -2,6 +2,7 @@ import React from 'react'
 import {BsDot} from 'react-icons/bs'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import { Link } from 'react-router-dom'
 
 
 const AboutObj = [
@@ -86,7 +87,9 @@ const About = () => {
             <h3 className='pt-2 font-Metamorphous font-normal text-[40px] text-black dark:text-white max-md:text-[30px] max-sm:text-[25px] max-xs:text-[20px]'>Hello Recruiter,</h3>
             <h1 className=' font-Metamorphous font-bold text-[60px] pt-[10px] text-black leading-[74px] dark:text-white max-md:text-[40px] max-md:leading-[50px] max-sm:text-[40px] max-xs:text-[20px] max-xs:leading-[30px] '>My Journey in Tech <br /> Community</h1>
             <p className=' font-Poppins  font-light text-[25px] leading-[28px] text-black dark:text-white pt-6 max-md:text-[20px] max-xs:text-[14px] '>If you are here I strong believe we will be working closely or together as team soon. <br /> Keep scrolling let me talk you through my journey so far.</p>
-            <button className='px-4 py-2 bg-[#FF6B6BE5] font-Poppins font-extralight rounded-md text-[20px] text-white mt-[15px] hover:bg-orange-500 transition duration-500'>Hire me</button>
+            <button className='px-4 py-2 bg-[#FF6B6BE5] font-Poppins font-extralight rounded-md text-[20px] text-white mt-[15px] hover:bg-orange-500 transition duration-500'>
+              <Link to="/Contact">Hire me</Link>
+            </button>
           </div>
           <div className='absolute right-0 top-[43rem] max-xs:top-[37rem]'>
             <svg className='h-[250px] max-md:h-[180px] max-xs:h-[140px] '  viewBox="0 0 99 392" fill="none" xmlns="http://www.w3.org/2000/svg">
